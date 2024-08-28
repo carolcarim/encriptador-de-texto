@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <body>
+      <div class="input-section">
+        <textarea
+          class="input-text"
+          placeholder="Ingresa el texto aquí"
+        ></textarea>
+        <div class="validation-wrapper">
+          <img
+            class="validation-image"
+            src="/assets/bi_exclamation-circle-fill.png"
+            alt="Validation Icon"
+          />
+          <p class="validation-message">
+            Por favor ingresa solo letras minúsculas y sin acentos.
+          </p>
+        </div>
+
+        <div class="button-group">
+          <button class="encrypt-button">Encriptar!</button>
+          <button class="decrypt-button">Desencriptar</button>
+        </div>
+      </div>
+      <div class="output-section">
+        <img
+          class="placeholder-image"
+          src="/assets/Muñeco.png"
+          alt="picture-muñeco"
+        />
+        <h2 class="no-message-found">Ningún mensaje fue encontrado</h2>
+        <p class="instructions">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+        <div class="encrypted-message"></div>
+        <button class="copy-button">Copiar</button>
+      </div>
+      <script src="./script.js"></script>
+<!--       <footer class="site-footer">
+        © 2024 Creado por Carol Rubilar. Todos los derechos reservados.
+      </footer> -->
+  </body>
+
+</html>
